@@ -1,0 +1,30 @@
+name: nhamfood
+description: A beautiful food discovery app using TheMealDB API.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  http: ^1.2.0
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  url_launcher: ^6.2.4
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
